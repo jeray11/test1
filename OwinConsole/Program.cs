@@ -12,7 +12,7 @@ namespace OwinConsole
         {
             using (Microsoft.Owin.Hosting.WebApp.Start<Startup>("http://localhost:9000"))
             {
-                Console.WriteLine("Press [enter] to quit...");
+                Console.WriteLine("Press [enter] to quit...123");
                 Console.ReadLine();
             }
         }
